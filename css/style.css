@@ -758,3 +758,30 @@ html {
     font-size: 2.5rem; }
   .slider_caption p {
     font-size: 1.3rem; } }
+
+@media screen and (max-width: 460px) {
+  .navbar_shop {
+    display: none; }
+  .footer_icon .delete {
+    display: none; }
+  .fa-bars {
+    color: crimson;
+    font-size: 25px;
+    z-index: 199; }
+  .navbar {
+    background-color: black;
+    height: 40px; }
+  .slider_caption a {
+    font-size: 2rem; } }
+
+@media screen and (max-width: 410px) {
+  .slider_caption a {
+    font-size: 1.6rem; } }
+
+@media screen and (max-width: 360px) {
+  .slider_caption a {
+    font-size: 1rem; }
+  .slider_caption h1 {
+    font-size: 1.5rem; }
+  .footer_icon .delete2 {
+    display: none; } }
