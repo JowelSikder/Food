@@ -218,9 +218,10 @@ html {
   position: fixed;
   margin-left: -200%;
   z-index: 1000;
-  top: 55.67px;
+  top: 0;
   left: 0;
-  transition: .8s; }
+  transition: .8s;
+  z-index: 3000; }
 
 .cross {
   position: relative; }
@@ -244,7 +245,11 @@ html {
   font-size: 20px;
   cursor: pointer;
   font-weight: bold;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  transition: .5s; }
+
+.mobile_navbar ul li:hover {
+  padding-left: 5px; }
 
 #boom {
   position: relative;
@@ -624,6 +629,16 @@ html {
   padding: 10px;
   border-radius: 50%; }
 
+.arrow_icon {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  position: relative;
+  z-index: 222; }
+
+#boom {
+  position: relative; }
+
 @media screen and (max-width: 1024px) {
   .uk-slider-items li {
     width: 100%;
@@ -785,3 +800,24 @@ html {
     font-size: 1.5rem; }
   .footer_icon .delete2 {
     display: none; } }
+
+@media screen and (max-width: 485px) {
+  .navbar_shop {
+    display: none; }
+  .navbar {
+    background-color: black;
+    height: 40px; }
+  .pen {
+    display: none; }
+  .google {
+    display: none; }
+  .clint_say {
+    font-size: 8px; } }
+
+@media screen and (max-width: 540px) {
+  .google {
+    display: none; } }
+
+@media screen and (max-width: 440px) {
+  .content_heading h1 {
+    font-size: 15px; } }
